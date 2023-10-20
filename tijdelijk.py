@@ -10,7 +10,7 @@ reclame_tekst2 = (f"{reclame_tekst}{aanbieding}") [:62]
 reclame_tekst3 = reclame_tekst2.upper()
 reclame_tekst4 = reclame_tekst3.split(" ")
 for el in reclame_tekst4 :
- if (len (el)) > 5:
+ if (len (el)) >= 5:
   el= (el.upper())	
  else:
   el= (el.lower())
